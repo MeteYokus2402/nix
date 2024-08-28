@@ -8,13 +8,11 @@
     # Desktop apps
     audacity
     chromium
-    telegram-desktop
-    obs-studio
     kdenlive
     gparted
-    zoom-us
     polymc
     helix
+    vim
     mosh
 
     # Coding stuff
@@ -124,7 +122,6 @@
 
     inputs.kuvpn.packages.${pkgs.system}.default
 
-    (callPackage ./cursorsh.nix {})
   ];
 
   fonts.packages = with pkgs; [
